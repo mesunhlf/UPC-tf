@@ -13,7 +13,7 @@ opencv-python **4.1.2**
 tensorflow **1.12rc1**  
 easydict **1.6**
   
-**faster-rcnn** our code use the repository of [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn) for attacking. Please install the object detection and make sure `tools/demo.py` can be run. We modify the `lib/nets/network.py` for feeding the tensors in our attacks.
+**faster-rcnn** our code use the repository of [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn) for attacking. Please install the object detection and make sure `tools/demo.py` can be run. We modify the `lib/nets/network.py` for feeding the tensors in our attacks and other files in `lib` need be copied in root directory.
 
 
 ### Run the Code
