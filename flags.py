@@ -28,7 +28,7 @@ flags.DEFINE_integer('attack_target', 15, 'The class being hided, e.g 15->person
 flags.DEFINE_integer('object_target', 12, 'The class being targeted for this attack as a number, e.g 12->dog')
 
 # Masks Setup
-flags.DEFINE_string("mask_dir", "/home/memoonhlf3/github/UPC/masks/person_mask/", "The dir of masks for generating patterns")
+flags.DEFINE_string("mask_dir", "masks/person_mask/", "The dir of masks for generating patterns")
 
 flags.DEFINE_string("attack_mask", "person_face.png, person_chest.png, person_hand1.png, person_hand2.png, \
                                     person_uleg1.png, person_uleg2.png, person_dleg1.png, person_dleg2.png",
@@ -40,7 +40,7 @@ flags.DEFINE_integer("mask_size", 600, "The size of each mask")
 # Internal simulation setup
 flags.DEFINE_boolean("target_image", True, "True: use the natural image as constraint")
 
-flags.DEFINE_string("target_image_dir", "/home/memoonhlf3/github/UPC/images/", "The target dir for optimization")
+flags.DEFINE_string("target_image_dir", "images/", "The target dir for optimization")
 
 flags.DEFINE_float("target_image_epsilon", 0.15, "The modify epsilon of pattern")
 
@@ -78,9 +78,9 @@ flags.DEFINE_float("rotate_max", 20, "The hyper-parameter of camera simulation")
 flags.DEFINE_float("rotate_min", -20, "The hyper-parameter of camera simulation")
 
 # Faster-RCNN setup
-flags.DEFINE_string("model_dir","/home/memoonhlf3/models/faster-rcnn/vgg16/voc_2007_trainval+voc_2012_trainval/","The dir of vgg16 based faster-rcnn")
+flags.DEFINE_string("model_dir", "", "The dir of vgg16 based faster-rcnn")
 
-flags.DEFINE_string("model_name","vgg16_faster_rcnn_iter_110000.ckpt","The ckpt of vgg16 based faster-rcnn")
+flags.DEFINE_string("model_name", "", "The ckpt of vgg16 based faster-rcnn")
 
 flags.DEFINE_integer("rpn_size", 38, "The size of rpn features, i.e. 38 correspond to the image size 600")
 
