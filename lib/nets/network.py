@@ -485,9 +485,8 @@ class Network(object):
 
     return layers_to_output
 
-  def create_architecture(self, mode, num_classes,final_inputs, tag=None,
+  def create_architecture(self, mode, num_classes, final_inputs, tag=None,
                           anchor_scales=(8, 16, 32), anchor_ratios=(0.5, 1, 2)):
-    #self._image = ((final_inputs + 1.0) / 2.0) * 255.0
     self._image = final_inputs
     #self._image = tf.placeholder(tf.float32, shape=[1, None, None, 3])
     self._im_info = tf.placeholder(tf.float32, shape=[3])
