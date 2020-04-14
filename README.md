@@ -21,7 +21,7 @@ For changing the parameters, please look into `flags.py`.
 For runing the training code `bash run_main.sh`.
 
 ### Pipeline and Examples
-<img src="/images/examples.png" width = "700" height = "300" align=center/>
+<img src="/images/examples.jpg" width = "700" height = "300" align=center/>
 
 ### Dataset
 We build the first standardized dataset, named [AttackScenes](https://drive.google.com/open?id=1tmzQj7Dm4zO4ROThDjJM5pJDrHMR2dWn), for evaluating the performace of physical attacks.  
