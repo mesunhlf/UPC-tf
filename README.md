@@ -14,7 +14,10 @@ opencv-python **4.1.2**
 tensorflow **1.12rc1**  
 easydict **1.6**
   
-**Faster-RCNN** our code use the repository of [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn) for attacking. Please install this object detection  and make sure `tools/demo.py` can be run. We modify the `lib/nets/network.py` for feeding the tensors in our attacks and other files in `lib` need be copied in root directory.
+**Faster-RCNN** our code uses the repository of [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn) as an example to attack.   
+(1) please download the repository from [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn) and compile the code according to its `README.md`.  
+(2) run the `tools/demo.py` to test the installation.  
+(3) copy the folder `lib` from `tf-faster-rcnn` into the root directory of `UPC-tf` except `lib/nets/network.py` file, which is uploaded and modified for feeding the tensor in our pipeline.
 
 
 ### Run the Code
