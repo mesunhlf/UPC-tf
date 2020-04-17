@@ -39,7 +39,7 @@ If you find this project is useful for your research, please consider citing:
 
 	@inproceedings{Huang2020UPC,
 	  title={UPC: Learning Universal Physical Camouflage Attacks on Object Detectors},
-	  author={Lifeng Huang and Chengying Gao and Yuyin Zhou and Changqing Zou and Cihang Xie and Alan L. Yuille and Ning Liu},
+	  author={Lifeng Huang and Chengying Gao and Yuyin Zhou and Cihang Xie and Alan L. Yuille and Changqing Zou and Ning Liu},
 	  booktitle={CVPR},
       year={2020}
 	}
