@@ -1,10 +1,10 @@
-# [CVPR 2020] UPC: Learning Universal Physical Camouflage Attacks on Object Detectors
+# [CVPR 2020] Universal Physical Camouflage Attacks on Object Detectors
 
 <p align="center"><img width="800"  src="/images/huang2019upc.gif"></p>
 
 ### Overview
 
-This is the official Tensorflow implementation of the universal physical camouflage (UPC) method proposed in [Learning Universal Physical Camouflage Attacks on Object Detectors](https://arxiv.org/abs/1909.04326v1). The project page (including demo & dataset) is [here](https://mesunhlf.github.io/index_physical.html).
+This is the official Tensorflow implementation of the universal physical camouflage (UPC) method proposed in [Universal Physical Camouflage Attacks on Object Detectors](https://arxiv.org/abs/1909.04326v1). The project page (including demo & dataset) is [here](https://mesunhlf.github.io/index_physical.html).
 
 ### Prerequisites
 
@@ -38,7 +38,7 @@ We collect the first standardized dataset, named [AttackScenes](https://drive.go
 If you find this project is useful for your research, please consider citing:
 
 	@inproceedings{Huang2020UPC,
-	  title={UPC: Learning Universal Physical Camouflage Attacks on Object Detectors},
+	  title={Universal Physical Camouflage Attacks on Object Detectors},
 	  author={Lifeng Huang and Chengying Gao and Yuyin Zhou and Cihang Xie and Alan L. Yuille and Changqing Zou and Ning Liu},
 	  booktitle={CVPR},
       year={2020}
