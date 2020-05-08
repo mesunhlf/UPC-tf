@@ -21,11 +21,26 @@ easydict **1.6**
 
 
 ### Run the Code
+Download the training data from this [link](https://drive.google.com/open?id=1gP-DXTByjteK6o5o8PfgosKevF3Mh4T4).  
 For changing the parameters, please refer to the settings in `flags.py`.   
 For runing the training code, please execute `bash run_main.sh`.
 
+
+### Test the Patterns
+Requirements: [Autodesk 3dsMax 2018](https://www.autodesk.com/products/3ds-max/overview) and [V-ray 3.6](https://www.chaosgroup.com/vray/3ds-max).  
+(1) train the camouflage patterns  
+(2) download the dataset [AttackScenes](https://drive.google.com/open?id=1tmzQj7Dm4zO4ROThDjJM5pJDrHMR2dWn) and release the `human.zip` and `scenes.zip` to get  human models and scenes files.  
+(3) use Autodesk 3dsMax software to paste (i.e. uv mapping function) the trained patterns on human models.  
+(4) export the human model as (.fbx) format from 3dsMax software and import it into each virtual scene (.3max).  
+(5) install the V-ray 3.6 plug-ins (for 3dsMax), and render the images from pre-defined cameras.  
+(6) run the faster-rcnn demo `tools/demo.py` to test the rendered images.
+
+We also provide the rendered images, please click [here](https://drive.google.com/open?id=1BLiQfRs49HkfEWRX3SEeLexGIqso3Q_E). 
+
+
 ### Pipeline and Examples
 <img src="/images/examples.jpg" align=center/>
+
 
 ### Dataset
 We collect the first standardized dataset, named [AttackScenes](https://drive.google.com/open?id=1tmzQj7Dm4zO4ROThDjJM5pJDrHMR2dWn), for fairly evaluating the performace of physical attacks under a controllable and reproducible environment.
@@ -33,6 +48,7 @@ We collect the first standardized dataset, named [AttackScenes](https://drive.go
 **Environments** AttackScenes includes different virtual scenes under various physical conditions.  
 **Cameras** For each virtual scene, 18 cameras are placed for capturing images from different viewpoints.  
 **Illuminations** The illuminations are accessible at 3 levels, and can be adjusted by controlling the strength of light sources.
+
 
 ### Citation
 If you find this project is useful for your research, please consider citing:
